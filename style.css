@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #f4e770 50%, #e15e83 50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.main__button {
+    font-size: 15px;
+    padding: 10px 40px;
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+}
+.main__modal {
+    display: none;
+    background: #FFFFFF;
+    width: 100vh;
+    height: 80vh;
+}
+.active {
+    display: block;
+}
+.hide {
+    display: none;
+}
